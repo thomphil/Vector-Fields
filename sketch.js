@@ -7,7 +7,7 @@ var v;
 function setup() {
     createCanvas(windowWidth, windowHeight);
 
-    flowfield = new FlowField(20);
+    flowfield = new FlowField(30);
     flowfield.init();
 }
 
